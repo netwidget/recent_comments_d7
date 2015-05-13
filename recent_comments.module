@@ -1,0 +1,11 @@
+<?php
+/**
+ * @file
+ * Code for the front page recent comments view.
+ */
+function recent_comments_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'recent_comments')
+    );
+}
